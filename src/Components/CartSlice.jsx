@@ -4,7 +4,7 @@ const initialState = {
   cartItems: [],
 };
 
-const CartSlice = ({
+const CartSlice = createSlice({
     name: 'cart',
     initialState,
     reducers: {
